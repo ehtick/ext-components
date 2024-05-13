@@ -9,6 +9,12 @@ For the main components library of Circuit Diagram, see
 
 As these components are generated programmatically, pull requests are not accepted.
 
+## Preview
+
+Preview these components with _Component Explorer_:
+
+https://componentexplorer.circuit-diagram.org/#https://github.com/circuitdiagram/ext-components
+
 ## Usage
 
 These components are provided in XML source format only. To use them in Circuit Diagram,
