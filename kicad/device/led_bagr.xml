@@ -2,13 +2,13 @@
 <component version="1.5" xmlns="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/component/xml" xmlns:sym="http://schemas.circuit-diagram.org/component/2024/symbol/xml">
   <declaration>
     <meta name="name" value="LED BAGR"/>
-    <meta name="version" value="0.2.0"/>
+    <meta name="version" value="0.2.1"/>
     <meta name="guid" value="907c92e0-a5bb-4579-aebd-24e949c3488c"/>
     <meta name="author" value="KiCad Libraries"/>
     <meta name="license" value="Creative Commons CC-BY-SA 4.0 with Electronic Designs Exception"/>
     <meta name="canresize" value="false"/>
     <meta name="minsize" value="40"/>
-    <meta name="additionalinformation" value="RGB LED, blue/anode/green/red"/>
+    <meta name="description" value="RGB LED, blue/anode/green/red"/>
     <meta name="keywords" value="LED RGB diode"/>
     <meta name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
     <property name="Reference" type="string" default="D" serialize="reference" display="Reference"/>
@@ -25,6 +25,9 @@
     <connection name="pin4" start="_Middle-20x-20y" end="_Middle-10x-20y" edge="start" sym:connection_id="3"/>
   </connections>
   <render>
+    <text x="_Middle-7.5" y="_Middle+25" value="B" align="CentreCentre" size="base"/>
+    <text x="_Middle-7.5" y="_Middle+5" value="G" align="CentreCentre" size="base"/>
+    <text x="_Middle-7.5" y="_Middle-15" value="R" align="CentreCentre" size="base"/>
     <path start="_Middle+0x+0y" data="M-5,20 L-10,20"/>
     <path start="_Middle+0x+0y" data="M-5,20 L5,20"/>
     <path start="_Middle+0x+0y" data="M-5,15 L-5,25"/>

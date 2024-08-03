@@ -2,7 +2,7 @@
 <component version="1.5" xmlns="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/component/xml" xmlns:sym="http://schemas.circuit-diagram.org/component/2024/symbol/xml">
   <declaration>
     <meta name="name" value="Electrosmith Daisy Seed Rev4"/>
-    <meta name="version" value="0.2.0"/>
+    <meta name="version" value="0.2.1"/>
     <meta name="guid" value="01729f01-ffc3-46ea-896f-a1d9dfddea69"/>
     <meta name="author" value="KiCad Libraries"/>
     <meta name="license" value="Creative Commons CC-BY-SA 4.0 with Electronic Designs Exception"/>
@@ -10,7 +10,7 @@
     <meta name="minsize" value="240"/>
     <meta name="footprint" value="Module:Electrosmith_Daisy_Seed"/>
     <meta name="datasheet" value="https://static1.squarespace.com/static/58d03fdc1b10e3bf442567b8/t/6227e6236f02fb68d1577146/1646781988478/Daisy_Seed_datasheet_v1.0.3.pdf"/>
-    <meta name="additionalinformation" value="Daisy is an embedded platform for music."/>
+    <meta name="description" value="Daisy is an embedded platform for music."/>
     <meta name="keywords" value="Electrosmith Daisy Seed Microcontroller Module ARM Cortex-M7"/>
     <meta name="ki_fp_filters" value="Electrosmith*Daisy*Seed*"/>
     <property name="Reference" type="string" default="A" serialize="reference" display="Reference"/>
@@ -63,6 +63,37 @@
     <connection name="spi1_sck" start="_Middle+80x+10y" end="_Middle+100x+10y" edge="end" sym:connection_id="39"/>
   </connections>
   <render>
+    <text x="_Middle+5" y="_Middle-100" value="GPIO0" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle+80" value="GPIO1" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle+30" value="GPIO10" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle-30" value="GPIO11" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle-20" value="GPIO12" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle-60" value="GPIO13" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle-50" value="GPIO14" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle-40" value="GPIO15" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle-30" value="GPIO16" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle-20" value="GPIO17" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle-10" value="GPIO18" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle+0" value="GPIO19" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle+70" value="GPIO2" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle+10" value="GPIO20" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle+20" value="GPIO21" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle+30" value="GPIO22" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle+40" value="GPIO23" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle+60" value="GPIO24" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle+70" value="GPIO25" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle+80" value="GPIO26" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle+90" value="GPIO27" align="CentreCentre" size="base"/>
+    <text x="_Middle-5" y="_Middle+100" value="GPIO28" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle-90" value="GPIO29" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle+60" value="GPIO3" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle-80" value="GPIO30" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle+50" value="GPIO4" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle+90" value="GPIO5" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle+100" value="GPIO6" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle+0" value="GPIO7" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle+10" value="GPIO8" align="CentreCentre" size="base"/>
+    <text x="_Middle+5" y="_Middle+20" value="GPIO9" align="CentreCentre" size="base"/>
     <rect location="_Middle-80x-130y" width="160" height="260.00000000000006"/>
     <text x="_Middle-80" y="_Middle-135" value="$Reference" align="CentreLeft" size="xxs"/>
     <text x="_Middle+130.00000000000003" y="_Middle-135" value="$Value" align="CentreRight" size="xxs"/>

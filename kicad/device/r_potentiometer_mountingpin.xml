@@ -2,13 +2,13 @@
 <component version="1.5" xmlns="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/component/xml" xmlns:sym="http://schemas.circuit-diagram.org/component/2024/symbol/xml">
   <declaration>
     <meta name="name" value="R Potentiometer MountingPin"/>
-    <meta name="version" value="0.2.0"/>
+    <meta name="version" value="0.2.1"/>
     <meta name="guid" value="2007ba28-9f19-44f7-891d-277b5b87f7a2"/>
     <meta name="author" value="KiCad Libraries"/>
     <meta name="license" value="Creative Commons CC-BY-SA 4.0 with Electronic Designs Exception"/>
     <meta name="canresize" value="false"/>
     <meta name="minsize" value="50"/>
-    <meta name="additionalinformation" value="Potentiometer with a mounting pin"/>
+    <meta name="description" value="Potentiometer with a mounting pin"/>
     <meta name="keywords" value="resistor variable"/>
     <meta name="ki_fp_filters" value="Potentiometer*"/>
     <property name="Reference" type="string" default="RV" serialize="reference" display="Reference"/>
@@ -29,6 +29,7 @@
     <path start="_Middle+0x+0y" data="M4.5,-0 L9,-2 L9,2" fill="true"/>
     <rect location="_Middle-4x-10y" width="8" height="20"/>
     <path start="_Middle+0x+0y" data="M-8,-4 L-8,4"/>
+    <text x="_Middle-6.5" y="_Middle+0" value="Mounting" align="CentreCentre" size="base"/>
     <text x="_Middle-32.50000000000001" y="_Middle+0" value="$Reference" align="CentreCentre" size="xxs" rotate="90"/>
     <text x="_Middle-25" y="_Middle+0" value="$Value" align="CentreCentre" size="xxs" rotate="90"/>
     <line start="_Middle+0x-15y" end="_Middle+0x-10y" sym:connection_id="0"/>

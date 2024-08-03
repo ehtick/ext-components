@@ -2,13 +2,13 @@
 <component version="1.5" xmlns="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/component/xml" xmlns:sym="http://schemas.circuit-diagram.org/component/2024/symbol/xml">
   <declaration>
     <meta name="name" value="R Potentiometer Dual MountingPin"/>
-    <meta name="version" value="0.2.0"/>
+    <meta name="version" value="0.2.1"/>
     <meta name="guid" value="cf06b251-7c97-42f5-be49-105e489c2056"/>
     <meta name="author" value="KiCad Libraries"/>
     <meta name="license" value="Creative Commons CC-BY-SA 4.0 with Electronic Designs Exception"/>
     <meta name="canresize" value="false"/>
     <meta name="minsize" value="80"/>
-    <meta name="additionalinformation" value="Dual potentiometer with a mounting pin"/>
+    <meta name="description" value="Dual potentiometer with a mounting pin"/>
     <meta name="keywords" value="resistor variable"/>
     <meta name="ki_fp_filters" value="Potentiometer*"/>
     <property name="Reference" type="string" default="RV" serialize="reference" display="Reference"/>
@@ -51,6 +51,7 @@
     <path start="_Middle+0x+0y" data="M25,5.5 L23,1 L27,1 L25,5.5" fill="true"/>
     <rect location="_Middle+15x+6y" width="20" height="8"/>
     <path start="_Middle+0x+0y" data="M-5,18.023622047244096 L5,18.023622047244096"/>
+    <text x="_Middle+0" y="_Middle+16.00787401574803" value="Mounting" align="CentreCentre" size="base"/>
     <text x="_Middle+0" y="_Middle-15" value="$Reference" align="CentreCentre" size="xxs"/>
     <text x="_Middle+0" y="_Middle-7.5" value="$Value" align="CentreCentre" size="xxs"/>
     <line start="_Middle-40x+10y" end="_Middle-35x+10y" sym:connection_id="0"/>
